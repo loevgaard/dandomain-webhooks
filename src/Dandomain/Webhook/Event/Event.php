@@ -8,6 +8,10 @@ class Event implements EventInterface {
         $this->data = $eventData;
     }
 
+    public function getType() {
+        return $this->data['ObjectType'];
+    }
+
     public function getPropertiesChanged()
     {
         return $this->data['PropertiesChanged'];
