@@ -1,0 +1,15 @@
+{
+    "name": "loevgaard/dandomain-webhooks",
+    "description": "PHP library for Dandomain webhooks",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joachim Løvgaard",
+            "email": "joachim@loevgaard.dk"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.1"
+    }
+}
