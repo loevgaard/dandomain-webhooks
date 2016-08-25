@@ -24,7 +24,6 @@ class Webhook {
             $this->request  = $request;
         }
 
-        echo $this->request->getContent();exit;
         $this->data = json_decode($this->request->getContent(), true);
     }
 
